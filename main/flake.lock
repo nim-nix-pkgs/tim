@@ -12,11 +12,11 @@
       },
       "locked": {
         "dir": "v1_1_2",
-        "lastModified": 1648107330,
-        "narHash": "sha256-GPmV9TrEDIRRLUATLs87pAZ/6BFpxxjgQ8h1AiyIUTI=",
+        "lastModified": 1648162960,
+        "narHash": "sha256-erDuEF3ImcFKHNqklQPAjazk2p9Yem6Ut0HWv93H6u8=",
         "owner": "nim-nix-pkgs",
         "repo": "bson",
-        "rev": "ee5126b40283bdd62ee102edd3968d81bcb8a96c",
+        "rev": "1d35328462a61c55efff05ced5e8f84d19cccae8",
         "type": "github"
       },
       "original": {
@@ -127,42 +127,15 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "watchout-main": "watchout-main"
-      },
-      "locked": {
-        "lastModified": 1648108225,
-        "narHash": "sha256-M65j7dvqv6mM+qGxTWHgqZK892wAoIkT++TZ9xzn5TY=",
-        "owner": "nim-nix-pkgs",
-        "repo": "watchout",
-        "rev": "be2a48fcf01c801f8ecd899939f056bbd31a0c25",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "watchout",
-        "type": "github"
-      }
-    },
-    "watchout-main": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "watchout",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "watchout",
-          "nixpkgs"
-        ],
         "src-watchout-main": "src-watchout-main"
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1648108225,
-        "narHash": "sha256-M65j7dvqv6mM+qGxTWHgqZK892wAoIkT++TZ9xzn5TY=",
+        "lastModified": 1648163745,
+        "narHash": "sha256-057uUgrNhm7jEWKXd+8KlsYD1KhRmYtZFC2Vi6KPl/E=",
         "owner": "nim-nix-pkgs",
         "repo": "watchout",
-        "rev": "be2a48fcf01c801f8ecd899939f056bbd31a0c25",
+        "rev": "d31797c686c0d02fea7a2325b5bfccadfee30779",
         "type": "github"
       },
       "original": {

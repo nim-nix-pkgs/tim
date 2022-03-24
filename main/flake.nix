@@ -1,5 +1,5 @@
 {
-  description = ''Really lightweight template engine'';
+  description = ''High-performance, compiled template engine inspired by Emmet syntax'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -12,6 +12,22 @@
   inputs.src-tim-main.owner = "openpeep";
   inputs.src-tim-main.repo  = "tim";
   inputs.src-tim-main.type  = "github";
+  
+  inputs."watchout".owner = "nim-nix-pkgs";
+  inputs."watchout".ref   = "master";
+  inputs."watchout".repo  = "watchout";
+  inputs."watchout".dir   = "";
+  inputs."watchout".type  = "github";
+  inputs."watchout".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."watchout".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."bson".owner = "nim-nix-pkgs";
+  inputs."bson".ref   = "master";
+  inputs."bson".repo  = "bson";
+  inputs."bson".dir   = "v1_1_2";
+  inputs."bson".type  = "github";
+  inputs."bson".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."bson".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

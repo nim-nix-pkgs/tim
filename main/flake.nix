@@ -11,7 +11,6 @@
   inputs.src-tim-main.ref   = "refs/heads/main";
   inputs.src-tim-main.owner = "openpeep";
   inputs.src-tim-main.repo  = "tim";
-  inputs.src-tim-main.dir   = "";
   inputs.src-tim-main.type  = "github";
   
   inputs."watchout".owner = "nim-nix-pkgs";

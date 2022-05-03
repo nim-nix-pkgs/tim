@@ -88,11 +88,11 @@
     "src-tim-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1647883960,
-        "narHash": "sha256-7ARzKoaMfpLWbOxct4iBHb04PHRyWfVkTY6C69D6uFw=",
+        "lastModified": 1651603531,
+        "narHash": "sha256-TcroxkNhQEdUpvnoTP1RVJLxHe63qMg3Zc7DroI+/Gw=",
         "owner": "openpeep",
         "repo": "tim",
-        "rev": "dccf97afeddc0079dda3a56156a334bb679ab908",
+        "rev": "bf898a59f64817bb8fd518765945205c9a07ad44",
         "type": "github"
       },
       "original": {

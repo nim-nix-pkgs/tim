@@ -3,20 +3,22 @@
     "bson": {
       "inputs": {
         "flakeNimbleLib": [
+          "tim-main",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "tim-main",
           "nixpkgs"
         ],
         "src-bson-v1_1_2": "src-bson-v1_1_2"
       },
       "locked": {
         "dir": "v1_1_2",
-        "lastModified": 1651917765,
-        "narHash": "sha256-U2PS8ObVbT3WTPG0ZZoXMRJp0uVeiHe2JupdnFWBZzk=",
+        "lastModified": 1651555288,
+        "narHash": "sha256-GRmYoSpk0reD9gwlBX6N3yC6W2U0bntzPfl2UC++/mw=",
         "owner": "nim-nix-pkgs",
         "repo": "bson",
-        "rev": "14908ed9cf56191ff4b7b4cec56683fa41e859a9",
+        "rev": "ca6dd874b154c5b1c05468611680d1d7df8f218e",
         "type": "github"
       },
       "original": {
@@ -61,11 +63,9 @@
     },
     "root": {
       "inputs": {
-        "bson": "bson",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-tim-main": "src-tim-main",
-        "watchout": "watchout"
+        "tim-main": "tim-main"
       }
     },
     "src-bson-v1_1_2": {
@@ -119,23 +119,54 @@
         "type": "github"
       }
     },
-    "watchout": {
+    "tim-main": {
       "inputs": {
+        "bson": "bson",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "nixpkgs"
         ],
+        "src-tim-main": "src-tim-main",
+        "watchout": "watchout"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1651890672,
+        "narHash": "sha256-xDDWW382gMwwviUxjJLlCaoBi33uNvgXMlQhLix6+jw=",
+        "owner": "nim-nix-pkgs",
+        "repo": "tim",
+        "rev": "a1bb737fa020bdea212400dbfac85d037ddb3712",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "tim",
+        "type": "github"
+      }
+    },
+    "watchout": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "tim-main",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "tim-main",
+          "nixpkgs"
+        ],
         "src-watchout-main": "src-watchout-main"
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1651918596,
-        "narHash": "sha256-ODZ/ZeVBlog4AmDEusNImnVRO/E4whoDaQOYxVIM9go=",
+        "lastModified": 1651556213,
+        "narHash": "sha256-PyPI/b4iJ4cgT0Toa2gQekQ5zipV6aR7rEPPyiOmV/E=",
         "owner": "nim-nix-pkgs",
         "repo": "watchout",
-        "rev": "aa8fa2c94cf1f9727331b37fbf9daeb5758c5047",
+        "rev": "f201b81a5241fb1e3b776f125b7f0f4f9d1fcbb4",
         "type": "github"
       },
       "original": {

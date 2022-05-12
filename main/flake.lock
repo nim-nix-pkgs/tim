@@ -12,11 +12,11 @@
       },
       "locked": {
         "dir": "v1_1_2",
-        "lastModified": 1651917765,
-        "narHash": "sha256-U2PS8ObVbT3WTPG0ZZoXMRJp0uVeiHe2JupdnFWBZzk=",
+        "lastModified": 1652390911,
+        "narHash": "sha256-cskGMKls7LVeKY7ONJ5xVjySdr893AkhMZf9o0m9Jng=",
         "owner": "nim-nix-pkgs",
         "repo": "bson",
-        "rev": "14908ed9cf56191ff4b7b4cec56683fa41e859a9",
+        "rev": "36fa1a36ad693435fa1d8cbe131ecd5bb2d00d08",
         "type": "github"
       },
       "original": {
@@ -88,11 +88,11 @@
     "src-tim-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1651861588,
-        "narHash": "sha256-TlwClQdQHTP/D3ldXV2Y65SKFPNdXR1j43aoSyJuGnc=",
+        "lastModified": 1652288841,
+        "narHash": "sha256-SD8gRTMlLD3sP+pdNnVw8yrX1aHPkf60rmSMsqIcpHs=",
         "owner": "openpeep",
         "repo": "tim",
-        "rev": "567bb1aea5ab144a202bdab7fdf90b15570be506",
+        "rev": "22264edd60c0e35632b82da059d7d2393d3ee112",
         "type": "github"
       },
       "original": {
@@ -131,11 +131,11 @@
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1651918596,
-        "narHash": "sha256-ODZ/ZeVBlog4AmDEusNImnVRO/E4whoDaQOYxVIM9go=",
+        "lastModified": 1652391708,
+        "narHash": "sha256-lj1KLOxBVD/SEvx+HHGttgSaKEaZuzeYM9Iq08FgQ/k=",
         "owner": "nim-nix-pkgs",
         "repo": "watchout",
-        "rev": "aa8fa2c94cf1f9727331b37fbf9daeb5758c5047",
+        "rev": "d81955c6e0bff0b048dfab356acce99926c02f94",
         "type": "github"
       },
       "original": {
